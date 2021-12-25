@@ -12,9 +12,9 @@ go get github.com/akshaybharambe14/gofl
 
 ## Why?
 
-Free list pattern provides a way to reuse already initialized memory. GOFL helps you to grab an item from the free list and put it back to the free list once it is no longer needed.
+Free list pattern provides a way to reuse already initialized memory. GOFL helps you to grab an item from the free list and put it back to the free list once it is no longer needed. This helps in allocating limited amount of memory, resulting in better performance.
 
-This helps in allocating limited amount of memory, resulting in better performance.
+You can have a look at [leaky buffer example from effective go documentation](https://go.dev/doc/effective_go). This package is inspired by the same implementation.
 
 A general usage would be:
 
