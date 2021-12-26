@@ -1,4 +1,4 @@
-name: Build and test package
+name: Build and test example
 
 on: [push, pull_request]
 
